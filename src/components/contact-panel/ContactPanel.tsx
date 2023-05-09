@@ -1,5 +1,6 @@
 import {RiSearchLine} from 'react-icons/ri';
 import ChatHeadBox from './ChatHeadBox';
+import Contact from './Contact';
 
 
 export default function ContactPanel() {
@@ -10,6 +11,7 @@ export default function ContactPanel() {
         <RiSearchLine className="icon" />
         <p>search users</p>
       </div>
+
       <div className='contact-panel__chat-head-container'>
         <ChatHeadBox />
         <ChatHeadBox />
@@ -21,7 +23,32 @@ export default function ContactPanel() {
         <ChatHeadBox />
         <ChatHeadBox />
       </div>
+
       <p className='contact-panel__recent-title'>Recent</p>
+
+      <div className='contact-panel__contact-info'>
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+        <Contact />
+      </div>
     </div>
   )
 }
