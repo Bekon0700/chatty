@@ -1,0 +1,38 @@
+.contact-panel {
+    background-color: #f5f7fb;
+    padding: 24px;
+    box-shadow: 0 2px 4px rgba(15,34,58,.12);
+
+    &__title {
+        color: #495057;
+        margin-bottom: 24px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 8px 16px;
+        background: #E6EBF5;
+        border-radius: 8px;
+        color: #878a92;
+        font-size: 16px;
+    }
+
+    &__chat-head-container {
+        padding-top: 24px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        overflow: hidden;
+        margin-bottom: 24px;
+    }
+
+    &__recent-title {
+        color: #495057;
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+}

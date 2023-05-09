@@ -1,0 +1,41 @@
+.left-panel {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 24px 8px;
+
+    .logo {
+        font-size: 32px;
+        align-self: center;
+        color: #7269EF;
+    }
+
+    .options-container {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .icon-container {
+            height: 56px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            
+            .icon {
+                font-size: 24px;
+                color: #878a92;
+            }
+
+        }
+        .active {
+            background-color: #f7f7ff;
+    
+            .icon {
+                color: #7269EF;
+            }
+        }
+    }
+}
